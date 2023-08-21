@@ -1,5 +1,5 @@
 variable "AmiName" {
-	default = "ixload-cloud-ami-9-30-0-331-42746e54-6f59-4da8-8998-db8f52140d70"
+	default = "ixload-cloud-ami-9-36-142-11-42746e54-6f59-4da8-8998-db8f52140d70"
 	description = "AMI name used for deploying instances"
 	type = string
 }
@@ -109,7 +109,7 @@ variable "UserProjectTag" {
 }
 
 variable "Version" {
-	default = "9-30"
+	default = "9-36"
 	description = "Versioning of the application using the deployment"
 	type = string
 }
