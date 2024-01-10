@@ -12,6 +12,6 @@ module "App" {
 	source  = "armdupre/module-ixload-app/aws"
 	Eth0SecurityGroupId = aws_security_group.PublicSecurityGroup.id
 	Eth0SubnetId = aws_subnet.PublicSubnet.id
-	SshKeyName = "example-ssh-key-name"
+	SshKeyName = aws_key_pair.SshKey.key_name
 }
 ```
