@@ -1,5 +1,5 @@
 variable "AmiName" {
-	default = "ixload-cloud-ami-11-00-0-320-42746e54-6f59-4da8-8998-db8f52140d70"
+	default = "ixload-cloud-ami-11-00-0-320_20250618115008-42746e54-6f59-4da8-8998-db8f52140d70"
 	description = "AMI name used for deploying instances"
 	type = string
 }
